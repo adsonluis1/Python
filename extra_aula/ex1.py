@@ -1,5 +1,6 @@
 # Vamos criar um algoritmo para ler uma variável e extrair o máximo de informações: É número? É alfabético? É alfanumérico? Está maiúscula? está minúscula ? Quantos caracteres possui?
 # aaaa
+# aaaaa
 import re
 var = input('digite... \n')
 regex = '^(?=.*[a-zA-Z])(?=.*[0-9])[A-Za-z0-9]+$'
